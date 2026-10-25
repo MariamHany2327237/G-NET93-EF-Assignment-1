@@ -18,6 +18,7 @@ namespace G_NET93_EF_Assignment_1.Contexts
 
         public DbSet<Book> Books { get; set; }
         public DbSet<Author> Authors { get; set; }
+        public DbSet<Category> categories { get; set; }
     }
 
 }
